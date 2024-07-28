@@ -1,0 +1,45 @@
+:root {
+  --primary: rgba(218, 214, 203, 1);
+  --secondary:rgba(66, 68, 90, 1);
+  --additional: rgba(255, 204, 53, 1);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100dvh ;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.primary {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--secondary);
+  background-color: var(--primary)
+}
+
+.secondary {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--primary);
+  background-color: var(--secondary)
+}
+
+.additional {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--secondary);
+  background-color: var(--additional)
+}
